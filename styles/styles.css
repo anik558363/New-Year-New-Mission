@@ -510,7 +510,7 @@ nav {
     /* 160% */
 }
 
-.subscribe-container input[type=text]{
+.subscribe-container input[type=text] {
     padding: 10px;
     border: none;
     margin-bottom: 80px;
@@ -518,7 +518,8 @@ nav {
     margin-right: 5px;
     border-radius: 8px;
 }
-.subscribe-container input[type=button]{
+
+.subscribe-container input[type=button] {
     padding: 10px;
     border: none;
     margin-bottom: 80px;
@@ -530,27 +531,27 @@ nav {
 
 /* footer */
 
-footer{
+footer {
     background-color: #070211;
     color: white;
 }
 
-.footer-first-part{
+.footer-first-part {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
     padding-bottom: 40px;
     line-height: 25px;
 
-    
+
 }
 
 
-.left{
+.left {
     margin-right: 100px;
 }
 
-.footer-social{
+.footer-social {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -559,7 +560,7 @@ footer{
 }
 
 
-.footer-second-part{
+.footer-second-part {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
@@ -570,90 +571,178 @@ footer{
 
 
 /* responsive style */
-.hide{
+.hide {
     display: none;
 }
 
 @media screen and (max-width: 576px) {
-    .hide{
+    .hide {
         display: none;
     }
-    .img-icon{
+
+    .img-icon {
         display: none;
     }
-    .menu-items{
+
+    .menu-items {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .banner{
+
+    .banner {
         width: 100%;
         height: 100%;
         background-image: url('https://media.istockphoto.com/id/97608908/photo/fireworks.jpg?s=2048x2048&w=is&k=20&c=POtK2_UM1alVRaH88KAnod9uoQqD-jxHIB9KFvFSz4g=');
         padding-bottom: 100px;
-        
+
     }
-    .banner .banner-text h1{
+
+    .banner .banner-text h1 {
         font-size: 40px;
     }
-    .categories-item img{
+
+    .categories-item img {
         height: 100%;
         width: 100%;
     }
-    .welcome-party{
+
+    .welcome-party {
         width: 100%;
         height: 100%;
         padding-bottom: 50px;
         background-image: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     }
-    .welcome-party button{
+
+    .welcome-party button {
         margin-left: 20px;
     }
-    .welcome-party h1{
+
+    .welcome-party h1 {
         font-size: 45px;
         font-weight: 600;
         width: 50%;
         padding: 20px;
     }
-    .welcome-party p{
+
+    .welcome-party p {
         width: 50%;
         padding: 20px;
     }
-    
-    
+
+    .place-item {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .bonus-container {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .bonus-container img{
+        width: 50%;
+        height: 50%;
+        background-color: none;
+    }
+
+    .bonus-container .bonus-item-1, .bonus-container .bonus-item-2, .bonus-container .bonus-item-3{
+        margin: 0 auto;
+    }
+   
+    .bonus-item-2 .border{
+        background-color: none;
+        padding: 10px;
+        border-radius: 0%;
+        /* border-radius: 50%; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .moblie-2{
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+   
 }
 
 
-@media screen and (min-width: 576px) and (max-width: 992px){
-    .banner{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner {
         height: 100%;
         width: 100%;
         background-image: url('https://images.unsplash.com/photo-1498673394965-85cb14905c89?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         padding-bottom: 100px;
     }
-    .banner .banner-text h1{
+
+    .banner .banner-text h1 {
         font-size: 40px;
     }
-    .categories-item img{
+
+    .categories-item img {
         height: 100%;
         width: 100%;
     }
-    .welcome-party{
+
+    .welcome-party {
         width: 100%;
         height: 100%;
         padding-bottom: 50px;
-       background-image: url('https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-image: url('https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     }
-    .welcome-party button{
+
+    .welcome-party button {
         margin-left: 20px;
     }
-    .welcome-party h1{
+
+    .welcome-party h1 {
         font-size: 45px;
         font-weight: 600;
         width: 50%;
         padding: 20px;
     }
-    .welcome-party p{
+
+    .welcome-party p {
         width: 50%;
         padding: 20px;
     }
+
+    .bonus-container {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .bonus-container img{
+        width: 50%;
+        height: 50%;
+        background-color: none;
+    }
+
+    .bonus-container .bonus-item-1, .bonus-container .bonus-item-2, .bonus-container .bonus-item-3{
+        margin: 0 auto;
+    }
+    .bonus-container .bonus-item-3{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+   
+    .bonus-item-2 .border{
+        background-color: none;
+        padding: 10px;
+        border-radius: 0%;
+        /* border-radius: 50%; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .moblie-2{
+        max-width: 100%;
+        margin-bottom: 0px;
+
+    }     
+    
 }
