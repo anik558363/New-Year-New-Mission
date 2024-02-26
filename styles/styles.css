@@ -567,7 +567,9 @@ footer {
     padding-bottom: 60px;
 }
 
-
+.visibility{
+    max-width: 0px;
+}
 
 
 /* responsive style */
@@ -696,6 +698,9 @@ footer {
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    .hide{
+        display: none;
+    }
     .banner {
         height: 100%;
         width: 100%;
