@@ -566,3 +566,42 @@ footer{
     padding-bottom: 60px;
 }
 
+
+
+
+/* responsive style */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+    .img-icon{
+        display: none;
+    }
+    .menu-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .banner{
+        width: 100%;
+        height: 100%;
+        background-image: url('https://media.istockphoto.com/id/97608908/photo/fireworks.jpg?s=2048x2048&w=is&k=20&c=POtK2_UM1alVRaH88KAnod9uoQqD-jxHIB9KFvFSz4g=');
+        padding-bottom: 80px;
+        
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .banner{
+        height: 100%;
+        width: 100%;
+        background-image: url('https://images.unsplash.com/photo-1498673394965-85cb14905c89?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        padding-bottom: 100px;
+    }
+}
